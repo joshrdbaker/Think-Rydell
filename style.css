@@ -125,12 +125,16 @@ strong {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.2em 0.45em;
+  gap: 0.18em 0.22em;
   margin-top: 0.2em;
 }
 
 .hero__title-accent-text {
   color: var(--color-primary-red);
+}
+
+.hero__title-accent-period {
+  margin-left: -0.14em;
 }
 
 .hero__logo-inline {
@@ -139,6 +143,8 @@ strong {
   width: auto;
   flex-shrink: 0;
   align-self: center;
+  /* Pull logo toward “Think” and the period; PNG often has extra padding */
+  margin-inline: -0.04em;
 }
 
 .hero__sub {
@@ -732,12 +738,16 @@ strong {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 0.2em 0.45em;
+  gap: 0.18em 0.22em;
   margin-top: 0.2em;
 }
 
 .close-cta__accent-text {
   color: var(--color-primary-red);
+}
+
+.close-cta__accent-period {
+  margin-left: -0.14em;
 }
 
 .close-cta__logo {
@@ -746,6 +756,7 @@ strong {
   width: auto;
   flex-shrink: 0;
   align-self: center;
+  margin-inline: -0.04em;
 }
 
 .close-cta__btn {
